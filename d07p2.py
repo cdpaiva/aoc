@@ -19,11 +19,6 @@ def combinable(nums, target):
     return False
 
 
-def permutator(n):
-    for i in range(n):
-        yield n & i
-
-
 def main(lines):
     counter = 0
     for line in lines:
