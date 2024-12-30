@@ -54,7 +54,6 @@ def main(codes):
 
     complexity = 0
     for c, s in zip(codes, seqs):
-        print(len(s))
         complexity += int(c[:-1]) * len(s)
 
     return complexity
